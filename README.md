@@ -1,7 +1,7 @@
 # MIRS
 MAGMA package for computing maximal irreducible solvable subgroups of GL(n,q).
 
-The code is based on [_Maximal Solvable Subgroups of Finite Classical Groups_](https://doi.org/10.1007/978-3-031-62915-0) (Lecture Notes in Mathematics, vol. 2346, Springer, 2024), where one of the main results is the classification of maximal irreducible solvable subgroups of GL(n,q).
+The code is based on results in [_Maximal Solvable Subgroups of Finite Classical Groups_](https://doi.org/10.1007/978-3-031-62915-0) (Lecture Notes in Mathematics, vol. 2346, Springer, 2024), where one of the main results is the classification of maximal irreducible solvable subgroups of GL(n,q).
 
 The intrinsic ```MIRSGL``` in the package is implemented only for certain values of n, but for arbitrary q.
 
