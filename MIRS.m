@@ -99,8 +99,11 @@ SingerTypeB0 := function(n,q)
 	A := Transpose(CompanionMatrix(pol));
 
 	B := ZeroMatrix(GF(q), n,n);
+
+	R := quo<R | pol>;
+
 	for i in [1..n] do
-	c := Coefficients((R.1)^(q*(i-1)) mod pol);
+	c := Coefficients((R.1)^(q*(i-1)));
 	for j in [1..Min(n,#c)] do
 		B[j][i] := c[j];
 	end for;
